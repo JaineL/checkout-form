@@ -1,0 +1,115 @@
+@mixin respond-to($media) {
+  @if $media == xs-320 {
+    @media only screen and (max-width: 320px) {
+      @content;
+    }
+  } @if $media == xs-360 {
+  @media only screen and (max-width: 360px) {
+    @content;
+  }
+} @if $media == xs-375 {
+  @media only screen and (max-width: 375px) {
+    @content;
+  }
+} @if $media == xs-414 {
+  @media only screen and (max-width: 414px) {
+    @content;
+  }
+} @if $media == xs-480 {
+  @media only screen and (max-width: 480px) {
+    @content;
+  }
+} @if $media == xs {
+  @media only screen and (max-width: 575px) {
+    @content;
+  }
+} @if $media == xs-650 {
+  @media only screen and (max-width: 650px) {
+    @content;
+  }
+} @else if $media == sm-720 {
+  @media only screen and (max-width: 720px) {
+    @content;
+  }
+} @else if $media == sm-767 {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+} @else if $media == sm {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+} @else if $media == md-800 {
+  @media only screen and (max-width: 800px) {
+    @content;
+  }
+} @else if $media == md-962 {
+  @media only screen and (max-width: 962px) {
+    @content;
+  }
+} @else if $media == md-991 {
+  @media only screen and (max-width: 991px) {
+    @content;
+  }
+} @else if $media == md {
+  @media only screen and (max-width: 993px) {
+    @content;
+  }
+} @else if $media == tablet {
+  @media only screen and (max-width: 1030px) {
+    @content;
+  }
+} @else if $media == tablet-1140 {
+  @media only screen and (max-width: 1140px) {
+    @content;
+  }
+} @else if $media == tablet-1100 {
+  @media only screen and (max-width: 1100px) {
+    @content;
+  }
+} @else if $media == max-height-768 {
+  @media only screen and (max-height: 768px) {
+    @content;
+  }
+} @else if $media == lg-1199 {
+  @media only screen and (max-width: 1199px) {
+    @content;
+  }
+} @else if $media == lg-1200 {
+  @media only screen and (max-width: 1200px) {
+    @content;
+  }
+} @else if $media == lg-1230 {
+  @media only screen and (max-width: 1230px) {
+    @content;
+  }
+} @else if $media == lg-1250 {
+  @media only screen and (max-width: 1280px) {
+    @content;
+  }
+} @else if $media == lg-1290 {
+  @media only screen and (max-width: 1290px) {
+    @content;
+  }
+} @else if $media == lg-1360 {
+  @media only screen and (max-width: 1367px) {
+    @content;
+  }
+} @else if $media == lg-1440 {
+  @media only screen and (max-width: 1440px) {
+    @content;
+  }
+} @else if $media == lg {
+  @media only screen and (max-width: 1560px) {
+    @content;
+  }
+} @else if $media == lg-1700 {
+  @media only screen and (max-width: 1700px) {
+    @content;
+  }
+} @else if $media == lg-1860 {
+  @media only screen and (max-width: 1860px) {
+    @content;
+  }
+}
+}

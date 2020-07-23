@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Assistant";
+  src: url("../fonts/Assistant/Assistant-Regular.eot");
+  src: local("Assistant-Regular"),
+  url("../fonts/Assistant/Assistant-Regular.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Assistant/Assistant-Regular.woff2") format("woff2"),
+  url("../fonts/Assistant/Assistant-Regular.woff") format("woff"),
+  url("../fonts/Assistant/Assistant-Regular.ttf") format("truetype"),
+  url("../fonts/Assistant/Assistant-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Assistant";
+  src: url("../fonts/Assistant/Assistant-Light.eot");
+  src: local("Assistant-Light"),
+  url("../fonts/Assistant/Assistant-Light.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Assistant/Assistant-Light.woff2") format("woff2"),
+  url("../fonts/Assistant/Assistant-Light.woff") format("woff"),
+  url("../fonts/Assistant/Assistant-Light.ttf") format("truetype"),
+  url("../fonts/Assistant/Assistant-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUIEmoji";
+  src: url("../fonts/Segoe/seguiemj.eot");
+  src: url("../fonts/Segoe/seguiemj.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Segoe/seguiemj.woff2") format("woff2"),
+  url("../fonts/Segoe/seguiemj.woff") format("woff"),
+  url("../fonts/Segoe/seguiemj.ttf") format("truetype"),
+  url("../fonts/Segoe/seguiemj.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+

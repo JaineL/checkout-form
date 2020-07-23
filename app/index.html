@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+<body>
+
+<!-- header -->
+
+<header class="header">
+    <div class="wrapper">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="header__info">
+            <div class="feedback">
+                <a href="javascript:void(0);" class="header__info--link">
+                    <img src="img/feedback.png" alt="">Feedback
+                </a>
+            </div>
+            <div class="help">
+                <a href="javascript:void(0);" class="header__info--link">
+                    <img src="img/help.png" alt="">Help
+                </a>
+            </div>
+
+
+            <div class="profile">
+                <a href="javascript:void(0);" class="profile--link">John Johnson
+                    <img src="img/caret.png" alt="" class="caret">
+                </a>
+                <img src="img/profile.png" alt="">
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- sidebar -->
+
+<aside class="sidebar">
+    <div class="sidebar__btn">
+        <img src="img/side-btn.png" alt="" class="btn btn-open">
+        <img src="img/side-btn2.png" alt="" class="btn btn-close">
+    </div>
+    <ul class="list">
+        <li class="list__item">
+            <a href="javascript:void(0);">
+                <div class="list__link">
+                    <img src="img/side1.png" alt="" class="list__img">
+                    <span class="list__info">Point 1</span>
+                </div>
+            </a>
+        </li>
+        <li class="list__item">
+            <a href="javascript:void(0);">
+                <div class="list__link">
+                    <img src="img/side2.png" alt="" class="list__img">
+                    <span class="list__info">Point 2</span>
+                </div>
+            </a>
+        </li>
+        <li class="list__item">
+            <a href="javascript:void(0);">
+                <div class="list__link">
+                    <img src="img/side3.png" alt="" class="list__img">
+                    <span class="list__info">Point 3</span>
+                </div>
+            </a>
+        </li>
+        <li class="list__item">
+            <a href="javascript:void(0);">
+                <div class="list__link">
+                    <img src="img/side4.png" alt="" class="list__img">
+                    <span class="list__info">Point 4</span>
+                </div>
+            </a>
+        </li>
+        <li class="list__item">
+            <a href="javascript:void(0);">
+                <div class="list__link">
+                    <img src="img/side5.png" alt="" class="list__img">
+                    <span class="list__info">Point 5</span>
+                </div>
+            </a>
+        </li>
+        <li class="list__item">
+            <a href="javascript:void(0);">
+                <div class="list__link">
+                    <img src="img/side6.png" alt="" class="list__img">
+                    <span class="list__info">Point 6</span>
+                </div>
+            </a>
+        </li>
+
+    </ul>
+</aside>
+
+<!-- content -->
+<div class="main">
+
+    <!-- steps -->
+
+    <section class="steps">
+        <ul class="steps__group">
+            <li class="steps__item completed">
+                <a href="javascript:void(0);">
+                    <span class="steps__num">1. Step</span>
+                    <div class="steps__img">
+                        <img src="img/step1.png" alt="">
+                    </div>
+                </a>
+            </li>
+            <li class="steps__item completed">
+                <a href="javascript:void(0);">
+                    <span class="steps__num">2. Step</span>
+                    <div class="steps__img">
+                        <img src="img/step2.png" alt="">
+                    </div>
+                </a>
+            </li>
+            <li class="steps__item active">
+                <a href="javascript:void(0);">
+                    <span class="steps__num">3. Step</span>
+                    <div class="steps__img">
+                        <img src="img/step3.png" alt="">
+                    </div>
+                </a>
+            </li>
+            <li class="steps__item inactively">
+                <a href="javascript:void(0);">
+                    <span class="steps__num">4. Step</span>
+                    <div class="steps__img">
+                        <img src="img/step4.png" alt="">
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!--  shipper details  -->
+    <section class="shipper">
+        <h3 class="title">Shipper Details</h3>
+        <div class="block__form">
+            <form>
+                <select class="company-select" name="company">
+                    <option value=""></option>
+                    <option>Company 1</option>
+                    <option>Company 2</option>
+                    <option>Company 3</option>
+                    <option>Company 4</option>
+                </select>
+                <div class="input__wrap">
+                    <input type="text">
+                    <label>Company name</label>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="shipment">
+        <h3 class="title">Shipment Details</h3>
+        <div class="table">
+            <div class="tr head__table">
+                <div class="th">Handling Unit Type (H/U)</div>
+                <div class="th"># of H/U</div>
+                <div class="th">H/U Dimensions</div>
+                <div class="th">Stackable</div>
+                <div class="th">Commodity Description</div>
+                <div class="th indent-left">NMFC</div>
+                <div class="th">Class</div>
+                <div class="th"># of Pieces</div>
+                <div class="th">Total Weight</div>
+                <div class="th">Haz Mat</div>
+            </div>
+            <div class="tr" style="height: 20px"></div>
+            <div class="tr">
+                <div class="td" aria-label="Handling Unit Type (H/U)">Pallets</div>
+                <div class="td" aria-label="# of H/U">3</div>
+                <div class="td" aria-label="H/U Dimensions">15 x 25 x 23 in</div>
+                <div class="td" aria-label="Stackable">Yes</div>
+                <div class="td custom-width" aria-label="Commodity Description">
+                    <select class="commodity" name="commodity">
+                        <option>Multigrain Snacks..., 300</option>
+                        <option>Multigrain Snacks..., 400</option>
+                        <option>Multigrain Snacks..., 500</option>
+                        <option>Multigrain Snacks..., 600</option>
+                    </select>
+                </div>
+                <div class="td" aria-label="NMFC">
+                    <form action="">
+                        <input type="text" placeholder="NMFC" name="nmfc" class="input--table">
+                    </form>
+                </div>
+                <div class="td" aria-label="Class">1</div>
+                <div class="td" aria-label="# of Pieces">1</div>
+                <div class="td" aria-label="Total Weight">400 lbs</div>
+                <div class="td" aria-label="Haz Mat">
+                    <form action="">
+                        <label class="label--checkbox">
+                            <input type="checkbox" name="checkbox" class="input--checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="tr" style="height: 30px"></div>
+            <div class="tr">
+                <div class="td only-desc" aria-label=""></div>
+                <div class="td only-desc" aria-label=""></div>
+                <div class="td only-desc" aria-label=""></div>
+                <div class="td only-desc" aria-label=""></div>
+                <div class="td custom-width" aria-label="">
+                    <select class="commodity" name="commodity">
+                        <option>Multigrain Snacks..., 300</option>
+                        <option>Multigrain Snacks..., 400</option>
+                        <option>Multigrain Snacks..., 500</option>
+                        <option>Multigrain Snacks..., 600</option>
+                    </select>
+                </div>
+                <div class="td" aria-label="">
+                    <form action="">
+                        <input type="text" placeholder="NMFC" name="nmfc" class="input--table">
+                    </form>
+                </div>
+                <div class="td" aria-label="Class">1</div>
+                <div class="td" aria-label="# of Pieces">1</div>
+                <div class="td" aria-label="Total Weight">400 lbs</div>
+                <div class="td" aria-label="Haz Mat">
+                    <form action="">
+                        <label class="label--checkbox">
+                            <input type="checkbox" name="checkbox" class="input--checkbox" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="tr" style="height: 20px"></div>
+            <div class="tr with-border" style="height: 30px"></div>
+            <div class="tr">
+                <div class="td only-desc" aria-label=""></div>
+                <div class="td only-desc" aria-label=""></div>
+                <div class="td only-desc" aria-label=""></div>
+                <div class="td only-desc" aria-label=""></div>
+                <div class="td indent-right" aria-label="">
+                    <select class="un--select" name="un">
+                        <option></option>
+                        <option>UN</option>
+                        <option>UN</option>
+                        <option>UN</option>
+                        <option>UN</option>
+                    </select>
+                </div>
+                <div class="td without--caret indent-right" aria-label="">
+                    <select class="un__number--select" name="un-num">
+                        <option></option>
+                        <option>UN Number</option>
+                        <option>UN Number</option>
+                        <option>UN Number</option>
+                        <option>UN Number</option>
+                    </select>
+                </div>
+                <div class="td without--caret indent-right" aria-label="">
+                    <select class="ship__name--select" name="ship-name">
+                        <option></option>
+                        <option>Proper shipping name</option>
+                        <option>Proper shipping name</option>
+                        <option>Proper shipping name</option>
+                        <option>Proper shipping name</option>
+                    </select>
+                </div>
+                <div class="td without--caret indent-right" aria-label="">
+                    <select class="hazard--select" name="hazard">
+                        <option></option>
+                        <option>Hazard Class</option>
+                        <option>Hazard Class</option>
+                        <option>Hazard Class</option>
+                        <option>Hazard Class</option>
+                    </select>
+                </div>
+                <div class="td" aria-label="">
+                    <select class="packing--select indent-right" name="pack">
+                        <option></option>
+                        <option>Packing Group</option>
+                        <option>Packing Group</option>
+                        <option>Packing Group</option>
+                        <option>Packing Group</option>
+                    </select>
+                </div>
+                <div class="td" aria-label="">
+                    <select class="packing__type--select" name="pack2">
+                        <option></option>
+                        <option>Packing Type</option>
+                        <option>Packing Type</option>
+                        <option>Packing Type</option>
+                        <option>Packing Type</option>
+                    </select>
+                </div>
+            </div>
+            <div class="tr" style="height: 30px"></div>
+            <div class="tr">
+                <div class="td" aria-label="Handling Unit Type (H/U)">Pallets</div>
+                <div class="td" aria-label="# of H/U">3</div>
+                <div class="td" aria-label="H/U Dimensions">15 x 25 x 23 in</div>
+                <div class="td" aria-label="Stackable">Yes</div>
+                <div class="td custom-width" aria-label="Commodity Description">
+                    <select class="commodity" name="commodity">
+                        <option>Multigrain Snacks..., 300</option>
+                        <option>Multigrain Snacks..., 400</option>
+                        <option>Multigrain Snacks..., 500</option>
+                        <option>Multigrain Snacks..., 600</option>
+                    </select>
+                </div>
+                <div class="td" aria-label="NMFC">
+                    <form action="">
+                        <input type="text" placeholder="NMFC" name="nmfc" class="input--table">
+                    </form>
+                </div>
+                <div class="td" aria-label="Class">1</div>
+                <div class="td" aria-label="# of Pieces">1</div>
+                <div class="td" aria-label="Total Weight">400 lbs</div>
+                <div class="td" aria-label="Haz Mat">
+                    <form action="">
+                        <label class="label--checkbox">
+                            <input type="checkbox" name="checkbox" class="input--checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="border-bottom" style="height: 30px"></div>
+
+        <div class="agree__block">
+            <form action="">
+                <label class="label--checkbox">
+                    <span class="agree__text">I agree to the</span>
+                    <a href="javascript:void(0);" class="agree__link">Terms and Conditions</a>
+                    <input type="checkbox" name="checkbox" class="input--checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </form>
+            <a href="javascript:void(0);" class="btn__send">Dispatch</a>
+        </div>
+    </section>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
